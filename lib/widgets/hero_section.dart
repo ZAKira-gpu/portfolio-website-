@@ -43,19 +43,19 @@ class HeroSection extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.only(left: 135),
                     child: Row(
-  mainAxisSize: MainAxisSize.min,
-  children: const [
-  HoverIcon(icon: FontAwesomeIcons.instagram, url: 'https://www.instagram.com/zakichaibdraa/'),
-  SizedBox(width: 30),
-  HoverIcon(icon: FontAwesomeIcons.linkedin, url: 'www.linkedin.com/in/mohammed-chaib-draa-855535285'),
-  SizedBox(width: 30),
-  HoverIcon(icon: FontAwesomeIcons.github, url: 'https://github.com/ZAKira-gpu'),
-  SizedBox(width: 30),
-  HoverIcon(icon: FontAwesomeIcons.xTwitter, url: 'https://twitter.com/your-handle'),
-  ],
-  ),
+                      mainAxisSize: MainAxisSize.min,
+                      children: const [
+                        HoverIcon(icon: FontAwesomeIcons.instagram, url: 'https://www.instagram.com/zakichaibdraa/'),
+                        SizedBox(width: 30),
+                        HoverIcon(icon: FontAwesomeIcons.linkedin, url: 'https://www.linkedin.com/in/mohammed-chaib-draa-855535285/'),
+                        SizedBox(width: 30),
+                        HoverIcon(icon: FontAwesomeIcons.github, url: 'https://github.com/ZAKira-gpu'),
+                        SizedBox(width: 30),
+                        HoverIcon(icon: FontAwesomeIcons.xTwitter, url: 'https://twitter.com/your-handle'),
+                      ],
+                    ),
 
-  ),
+                  ),
                 ),
 
                 const SizedBox(height: 16),

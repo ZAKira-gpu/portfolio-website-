@@ -90,7 +90,7 @@ class ProjectsSection extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (_) =>  ProjectDetailsPage(imageUrl: 'https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1024', title: "weather app", description: "description", tools: ["dart; flutter"], platforms: ["platforms"], tags: ["tags"], links: ["links"], developer: "developer"),
+              builder: (_) =>  ProjectDetailsPage(imageUrl: 'https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1024', title: "weather app", description: "Experience the weather like never before with our innovative 3D Weather App, designed to deliver real-time weather updates in a visually immersive way. Whether it's a sunny day or a thunderstorm, our app brings the forecast to life with dynamic 3D cloud animations that reflect the current weather conditions — right on your screen.", tools: ["-dart" ,"-flutter"], platforms: ["-android","ios","desktop"], tags: ["mobile app","weather app","Api","3d modeling"], links: ["links"], developer: "Zaki"),
             ),
           );
         },

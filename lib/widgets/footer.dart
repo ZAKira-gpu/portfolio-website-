@@ -118,17 +118,17 @@ class _CustomFooterState extends State<CustomFooter> with SingleTickerProviderSt
                                 ),
                               ),
                               const SizedBox(height: 8),
-                              contactItem(Icons.email, "zaki.dev@example.com"),
-                              contactItem(Icons.phone, "+123 456 7890"),
+                              contactItem(Icons.email, "zakira-cpu@outlook.fr"),
+                              contactItem(Icons.phone, "+213 5572 57137"),
                               const SizedBox(height: 16),
 
                               Wrap(
                                 spacing: 12,
                                 children: [
-                                  hoverableIcon(FontAwesomeIcons.github, "https://github.com/yourprofile"),
-                                  hoverableIcon(FontAwesomeIcons.linkedinIn, "https://linkedin.com/in/yourprofile"),
-                                  hoverableIcon(FontAwesomeIcons.stackOverflow, "https://stackoverflow.com/users/yourid"),
-                                  hoverableIcon(FontAwesomeIcons.medium, "https://medium.com/@yourprofile"),
+                                  hoverableIcon(FontAwesomeIcons.github, "https://github.com/ZAKira-gpu"),
+                                  hoverableIcon(FontAwesomeIcons.linkedinIn, "https://www.linkedin.com/in/mohammed-chaib-draa-855535285/"),
+                                  hoverableIcon(FontAwesomeIcons.stackOverflow, "https://stackoverflow.com/users/30758702/hi-im-zaki"),
+                                  hoverableIcon(FontAwesomeIcons.medium, "https://medium.com/@mohammedchaib26"),
                                   hoverableIcon(FontAwesomeIcons.discord, "https://discord.com/users/yourid"),
                                 ],
                               ),
@@ -166,11 +166,11 @@ class _CustomFooterState extends State<CustomFooter> with SingleTickerProviderSt
       child: Row(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          Icon(icon, color: Colors.white, size: 16),
+          Icon(icon, color: Color(0xFFCCE8DA), size: 16),
           const SizedBox(width: 8),
           Text(
             text,
-            style: const TextStyle(color: Colors.white, fontFamily: 'Montserrat'),
+            style: const TextStyle(color: Color(0xFFCCE8DA), fontFamily: 'Montserrat'),
           ),
         ],
       ),
